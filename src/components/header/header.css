@@ -1,0 +1,117 @@
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0E6B4F;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+}
+
+.header .logo img{
+    width: 125px;
+    padding: 0px 10px 0px 20px;
+}
+
+.header .right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header .search_icon{
+    font-size: 30px;
+    margin-right: 40px;
+    color: #0E6B4F;
+    font-weight: bold;
+}
+.header .location{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header .location a{
+    margin-right: 40px;
+    color: #0E6B4F;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header .location span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.header .location .loc_icon{
+  font-size: 18px;
+  padding-right: 2px;
+}
+.header .sign_in a{
+    margin-right: 40px;
+    color: #0E6B4F;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header .sign_in .sign_icon{
+    font-size: 18px;
+    padding-right: 2px;
+  }
+  .header .sign_in span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.header .cart .cart_icon{
+    font-size: 45px;
+    padding-right: 2px;
+    color: #0E6B4F;
+    margin-right: 20px;
+  }
+  .header .cart_details{
+      background: #0E6B4F;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 125px;
+      justify-content: center;
+      align-items: center;
+  }
+  .header .cart_details::after{
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 85%;
+      background: rgb(173, 173, 173);
+  }
+  .header .cart_details .arrow{
+    position: absolute;
+    width: 30px;
+    left: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 8px;
+    z-index: 9999;
+  }
+  .header .cart_details p{
+      padding: 5px 0px;
+      color: rgb(231, 231, 231);
+  }
+  .header .cart_details p span{
+      font-weight: 600;
+      font-size: 17px;
+  }

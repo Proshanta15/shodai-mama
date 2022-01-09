@@ -1,0 +1,39 @@
+@media (min-width: 1367px){
+    .body .why_shodai {
+        width: 75%;
+    }
+    .body .shodai_category {
+        width: 75%;
+    }
+    .body .same_item {
+        width: 75%;
+    }
+    .body .same_item .item {
+        min-width: 275px;
+    }
+    .footer .footer_item {
+        width: 75%;
+    }
+    .footer .payment {
+        width: 75%;
+    }
+    .body .sodai_title .title {
+        width: 75%;
+    }
+    .body .same_title {
+        width: 75%;
+    }
+    .body .right_part .preorder {
+        width: 75%;
+    }
+    .body .right_part .slider img {
+        width: 73%;
+    }
+    .body .shodai_category .cat_items .cat_item {
+        width: 161px;
+    }
+    .footer .footer_item {
+        grid-template-columns: repeat(auto-fill,minmax(221px,1fr));
+       
+    }
+  }
